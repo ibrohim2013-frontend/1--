@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    text-align: none;
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cards{
+    display: flex;
+    gap: 70px;
+}
+
+.card{
+    width: 300px;
+    background: linear-gradient(rgba(246, 255, 0, 0.644) , rgba(0, 225, 255, 0.589));
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card h1{
+    background: linear-gradient(to right ,rgb(255, 0, 0) , rgb(0, 255, 34));
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.card p{
+    background: linear-gradient(to right ,rgb(136, 152, 48) , rgb(60, 0, 255));
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+#hero{
+    background-image: url("../images/image.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
